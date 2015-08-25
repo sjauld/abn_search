@@ -1,6 +1,6 @@
 === Important: Gem has been rewritten to support ABN objects. Stick with ~>0.0 until you rewrite your application.
 
-A simple library for validating ABNs and ACNs and updating details from the Australian Business Register.
+A simple library for validating ABNs and ACNs and retrieving details from the Australian Business Register.
 
 PLEASE NOTE: You will need a GUID to be able to use the ABR business lookup API. You can obtain one at the following link;
 http://www.abr.business.gov.au/Register.aspx

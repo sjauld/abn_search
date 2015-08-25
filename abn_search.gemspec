@@ -5,11 +5,11 @@ require 'abn_search/version'
 Gem::Specification.new do |s|
   s.name        = "abn_search"
   s.version     = ABNSearch::VERSION
-  s.authors     = ["James Martin", "Stuart Auld", "James Healy"]
-  s.email       = ["james@visualconnect.net", "sja@marsupialmusic.net", "jimmy@deefa.com"]
-  s.homepage    = "https://github.com/sjauld/abn_search"
-  s.summary     = "ABR Search library for Australian businesses."
-  s.description = "A simple ABN search library for validating and obtaining ABN details from the Australian Business Register."
+  s.authors     = ["James Martin"]
+  s.email       = ["james@visualconnect.net"]
+  s.homepage    = "https://github.com/Oneflare/abn_search"
+  s.summary     = "ABN library with API hook to the ABR."
+  s.description = "A simple library for validating ABNs and ACNs and retrieving details from the Australian Business Register."
   s.rubyforge_project = "abn_search"
 
   s.files         = `git ls-files`.split("\n")
